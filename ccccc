@@ -1,0 +1,20 @@
+public class StudentMarks {
+  public static void main(String[] args) {
+    String[] names = {"Arloh", "Tom", "Hariat", "Amos"};
+    int[] marks = {20, 34, 45, 74};
+
+    // Loop to display students' names and marks
+    for (int i = 0; i < names.length; i++) {
+      System.out.println(names[i] + ": " + marks[i]);
+    }
+
+    // Control statement to check for passing marks
+    for (int i = 0; i < names.length; i++) {
+      if (marks[i] >= 50) {
+        System.out.println(names[i] + " has passed.");
+      } else {
+        System.out.println(names[i] + " has failed.");
+      }
+    }
+  }
+}
